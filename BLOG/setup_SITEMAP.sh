@@ -4,10 +4,10 @@
 BASE_URL="https://fusko.xyz"
 
 # Set the directory containing the .md files
-MD_DIR="/home/stefus/BLOG/mkdocs_DATA/docs"
+MD_DIR="/opt/BLOG/mkdocs_DATA/docs"
 
 # Set the output sitemap file
-SITEMAP_FILE="/home/stefus/BLOG/mkdocs_DATA/docs/assets/sitemap.xml"
+SITEMAP_FILE="/opt/BLOG/mkdocs_DATA/docs/assets/sitemap.xml"
 
 # Start the sitemap XML file
 echo '<?xml version="1.0" encoding="UTF-8"?>' > $SITEMAP_FILE

@@ -8,4 +8,4 @@ echo "# Spawning AI
 
 User-Agent: *
 Disallow: /
-Disallow: *" > /home/stefus/BLOG/mkdocs_DATA/docs/ai.txt
+Disallow: *" > /opt/BLOG/mkdocs_DATA/docs/ai.txt

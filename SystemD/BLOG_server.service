@@ -4,7 +4,7 @@ Description=BLOG server
 [Service]
 User=stefus
 Group=stefus
-ExecStart=/usr/bin/bash /home/stefus/BLOG/setup.sh
+ExecStart=/usr/bin/bash /opt/BLOG/setup.sh
 
 [Install]
 WantedBy=multi-user.target

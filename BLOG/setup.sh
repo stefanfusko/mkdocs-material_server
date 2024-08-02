@@ -1,14 +1,14 @@
 #!/bin/bash
 
-cd /home/stefus/BLOG
+cd /opt/BLOG
 
 python -m venv venv
 source venv/bin/activate
 
-/home/stefus/BLOG/venv/bin/python -m pip install --upgrade pip
+/opt/BLOG/venv/bin/python -m pip install --upgrade pip
 pip install --no-cache-dir -r requirements.txt
 
-chmod a=rx /home/stefus/BLOG/setu*.sh
+chmod a=rx /opt/BLOG/setu*.sh
 ./setup_ROBOTS.sh
 ./setup_HUMANS.sh
 ./setup_SITEMAP.sh
