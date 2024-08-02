@@ -1,0 +1,5 @@
+mkdocs-material
+mkdocs-material[imaging]
+mkdocs-awesome-pages-plugin
+#mkdocs-ultralytics-plugin
+mkdocs-rss-plugin

@@ -1,0 +1,10 @@
+[Unit]
+Description=BLOG server
+
+[Service]
+User=stefus
+Group=stefus
+ExecStart=/usr/bin/bash /home/stefus/BLOG/setup.sh
+
+[Install]
+WantedBy=multi-user.target
